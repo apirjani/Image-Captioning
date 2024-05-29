@@ -1,5 +1,28 @@
 # Andre's Image Captioning Project
 
+## Project Description
+
+The goal of this project, inspired by Andrej Karpathy's blog on image captioning using multimodal RNNs, is three-fold:
+1. To learn more about the challenges of training data curation, as well as evaluation benchmark curation when developing transformers.
+2. To compare the performance of state-of-the-art multimodal language models like GPT4-V with state-of-the-art multimodal encoder (or dual-encoder) models such as VisualBERT and CLIP on image captioning tasks.
+3. To experiment with in-context learning (ICL) using GPT-4V on the image captioning task.
+
+### Task Specifics
+
+The task that these models are used to perform in this project is the following: given an image and two captions, choose the caption that better describes the image.
+
+### **Sample**
+
+Image: 
+
+![person_320](https://github.com/apirjani/Image-Captioning/assets/89765975/f35c2c4a-7163-46db-aca4-581ad64ed369)
+
+Caption 1: "The image shows two adults, a man and a woman, walking together in an urban square; the man is wearing a light brown jacket and jeans while carrying a red shopping bag, and the woman is dressed in a beige trench coat with black pants. In the background, there is another individual wearing a dark coat, walking away from the camera."
+
+Caption 2: "The image depicts a man and a woman walking through a European-style town square, past a stone fountain with a statue, bordered by colorful buildings and storefronts."
+
+Sample Prediction: Caption 2
+
 ## Execution Instructions
 
 First, please make sure to run 'pip install -r requirements.txt' to install all necessary dependencies. Also, please make sure to enter your OpenAI API Key in the .env file to use GPT-4V.
